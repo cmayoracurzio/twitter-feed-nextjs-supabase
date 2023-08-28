@@ -45,7 +45,7 @@ export default function CreatePost({ user }: { user: User }) {
             setContent(e.target.value);
           }}
           placeholder="What is happening?!"
-          className="bg-inherit flex-1 ml-2 text-2xl leading-loose placeholder-gray-500 px-2 outline-none break-normal"
+          className="bg-inherit flex-1 ml-2 text-2xl leading-loose placeholder-gray-500 px-2 outline-none"
         />
       </div>
     </form>
